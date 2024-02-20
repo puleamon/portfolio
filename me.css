@@ -1,0 +1,591 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  text-align: center;
+  color: white;
+  
+  background-color: black;
+  margin: 0px;
+  padding: 0;
+  background-position: center;
+  background-size: cover;
+  
+  font-family: calibri;
+
+}
+@media(max-width: 800px){
+  body{
+    text-align: center;
+  }
+}
+.head1{
+
+ 
+  text-align: center;
+}
+.head{
+  text-align: center;
+  padding-top: 30px;
+  height: 900px;
+  background-image: url("back.jpg");
+  background-size: cover;
+  background-position: center;
+}
+a{
+  text-decoration: none;
+
+}
+.navbar{
+  margin-bottom: 30px;
+  border-radius: 10px;
+  font-family: calibri;
+  padding-left: 15px;
+}
+
+.amon {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.navdiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+.list{
+  border-radius: 20px;
+}
+li{
+  list-style: none;
+  display: inline-block;
+}
+li a{
+  font-weight: 800;
+  color: white;
+  font-size: 18px;
+  font-weight: bald;
+  margin-right: 25px;
+  transition: text-decoration 0.3s ease-out;
+  
+}
+li a:hover{
+  text-decoration: underline;
+}
+.logo{
+  margin-left: 20px;
+}
+.logo a{
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  
+
+
+}
+
+@media(max-width: 800px){
+  li a{
+    font-size: 15px;
+  }
+  
+  .logo a{
+    
+    color: white;
+    font-size: 19px;
+  }
+  .logo{
+    margin-left: 0px;
+  }
+}
+.container p{
+  font-size: 18px;
+}
+.container {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  padding-left: 10px;
+}
+.hy{
+
+  margin-bottom: 20px;
+  
+  background-color: grey;
+  border-radius: 3px;
+  font-size: 1.1em;
+  margin-top: 1px;
+}
+.hy p{
+  font-size: 18px;
+  color: white;
+}
+
+.bt{
+  background-color: grey;
+}
+.bt p{
+  color: white;
+  font-size: 18px;
+}
+
+
+.go{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.nn1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.nn2{
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+@media(max-width: 800px){
+.nn2{
+  height: 300px;
+  width: 100%;
+}
+}
+@media(max-width: 800px){
+  .go{display: block;}
+}
+.zz img{
+  width: 300px;
+  border-radius: 20px;
+  transition: transform 0.3s ease-out;
+}
+@media(max-width: 800px){
+  .zz img{
+    width:270px;
+    height: 320px;
+
+  }
+  .zz{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .hy,.bt{
+    width: 420px;
+  }
+}
+.zz img:hover{
+  transform: scale(1.04);
+}
+
+
+.text {
+  font-family: monospace;
+  font-size: 4.8em;
+  letter-spacing: 6px;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing 6s,
+    cursor .4s step-end infinite alternate;
+}
+@media(max-width: 800px){
+  .text{
+    font-size: 2em;
+  }
+}
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+
+
+@media(max-width: 800px){
+  .head{
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    height: 800px;
+  }
+  .head1{
+    text-align: center;
+  }
+  .go{
+    margin-top: 20px;
+    width: 100%;
+    height: 800px;
+  }
+}
+.talk{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.talk h2{
+  font-size: 20px;
+}
+.get{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.get button{
+  transition: transform 0.3s ease-out;
+  border: none;
+  width: 230px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.get button:hover{
+  transform: scale(1.1);
+}
+.get button h4{
+  font-size: 1.3em;
+}
+.get button a{
+  text-decoration: none;
+  color: black;
+}
+.why{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-bottom: 2px grey solid;
+}
+.now{
+  text-align: left;
+  padding-left: 10px;
+}
+.now p{
+  font-size: 18px;
+}
+.now p:hover{
+  
+  background-color: black;
+}
+
+
+
+.butts{
+  text-align: center;
+  
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.deed{
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details{
+  display: block;
+  background: linear-gradient(500deg,black,rgb(61, 57, 57),grey);
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 400px;
+}
+@media(max-width: 800px){
+  .details{
+    width: 450px;
+    height: 400px;
+  }
+}
+.small{
+  margin: 20px;
+  text-align: center;
+}
+
+.small h2{
+  font-size: 24px;
+}
+.packages{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.p2,.p1{
+  padding-top: 40px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  border: 2px grey solid;
+  width:500px;
+  height: 300px;
+  margin-left: 30px;
+
+
+}
+.p1 button{
+  
+  width: 300px;
+  border-radius: 10px;
+  font-size: 17px;
+  background-color: rgb(29, 185, 84);
+  border: none;
+  transition: transform 0.3s ease-out;
+  font-weight: 400;
+  cursor: pointer;
+}
+.p1 button:hover{
+  transform: scale(1.1);
+}
+.p2 button:hover{
+  transform: scale(1.1);
+}
+.p2 button{
+
+  width: 300px;
+  border-radius: 5px;
+  font-size: 17px;
+  background-color: rgb(29, 185, 84);
+  border: none;
+  transition: transform 0.3s ease-out;
+  font-weight: 400;
+  cursor: pointer;
+}
+.p1, .p2, p{
+  font-size: 1.2em;
+}
+.p1, .p2, p{
+  font-size: 1.2em;
+}
+.p1 h3{
+  
+  background-color: orangered;
+}
+
+.p2 h3{
+  
+  background-color: orangered;
+}
+@media(max-width: 800px) {
+  .packages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  height: 800px;
+
+
+  }
+  .p1,.p2{
+    display: block;
+    width:340px;
+    height: 330px;
+    margin-left: 0px;
+    padding-top: 50px;
+  }
+}
+.packages a{
+  color: white;
+}
+
+.bottom{
+  border-top:1px grey solid;
+  margin-top: 40px;
+  padding-top: 30px;
+  height: 200px;
+}
+.middle h2{
+  text-align: center;
+  font-size: 2em;
+
+}
+
+.call{
+  margin-top: 20px;
+  height: 500px;
+  background: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  
+}
+.call h1{
+  color: black;
+  font-weight: 800;
+}
+.call .ct{
+  font-size: 1.4em;
+  margin-left: 25px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 8px 20px;
+  transition: transform 0.3s ease-out;
+}
+.cll{
+  border-radius: 20px;
+  border: 2px white solid;
+
+  padding: 0px 20px;
+}
+.cll h1{
+  font-size: 1.8em;
+  font-weight: 1000;
+  color: purple;
+}
+.cll:hover{
+  background-color: white;
+}
+.ct a{
+  text-decoration: none;
+  color: white;
+}
+
+@media(max-width: 800px){
+  .call{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+
+  }
+}
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: -1; 
+}
+
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  #myVideo {
+    width: 100%;
+    
+  }
+}
+.services{
+  text-align: center;
+}
+@media(max-width: 800px){
+  .sso{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.sh1 h1{
+  font-size: 1.6em;
+}
+.neck{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.sh1{
+  text-align: center;
+  border-radius: 10px;
+  padding: 0px 10px ;
+  width: 400px;
+  border: 2px white solid;
+}
+.sso{
+  display: flex;
+  justify-content: space-around;
+
+}
+.sso1 h4 {
+  font-size: 1.3em;
+  color: orange;
+}
+.sso12 h4 {
+  font-size: 1.3em;
+  color: orange;
+}
+.sso12 p {
+  font-size: 1.3em;
+  color: grey;
+}
+.sso1 p {
+  font-size: 1.3em;
+  color: grey;
+}
+
+.sso1{
+  
+  padding-bottom: 5px;
+  padding-left: 20px;
+  border-right: 2px white solid;
+  
+  width: 450px;
+  height: 700px;
+  text-align: left;
+
+}
+.sso12{
+  padding-bottom: 5px;
+  padding-left: 20px;
+  width: 450px;
+  height: 500px;
+  text-align: left;
+
+}
+@media(max-width: 800px){
+  .sso1{
+    height: 650px;
+    border-right: none;
+    border-bottom: 2px white solid;
+
+  }
+}
+.list1{
+  background-image: url("sky.jpg");
+}
+.merch{
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
