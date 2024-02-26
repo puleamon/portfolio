@@ -11,14 +11,8 @@ body{
   padding: 0;
   background-position: center;
   background-size: cover;
-  
   font-family: calibri;
 
-}
-@media(max-width: 800px){
-  body{
-    text-align: center;
-  }
 }
 .head1{
 
@@ -32,6 +26,22 @@ body{
   background-image: url("back.jpg");
   background-size: cover;
   background-position: center;
+}
+
+@media screen and (max-width: 800px){
+  .head1{
+    width: 100;
+    text-align: center;
+  }
+  .head{
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    height: 850px;
+    
+  }
+  
 }
 a{
   text-decoration: none;
@@ -102,42 +112,57 @@ li a:hover{
     margin-left: 0px;
   }
 }
+.container{
+  margin-bottom: 20px;
+}
 .container p{
-  font-size: 18px;
-}
-.container {
-  margin-bottom: 20px;
-  margin-top: 20px;
-  display: flex;
-  padding-left: 10px;
-}
-.hy{
+  font-size: 24px;
 
+}
+
+.hy{
   margin-bottom: 20px;
-  
-  background-color: grey;
   border-radius: 3px;
   font-size: 1.1em;
   margin-top: 1px;
 }
 .hy p{
-  font-size: 18px;
+  font-size: 24px;
   color: white;
-}
-
-.bt{
-  background-color: grey;
 }
 .bt p{
-  color: white;
-  font-size: 18px;
+  font-size: 24px;
 }
+@media(max-width: 800px){
+  .bt, .hy{
+    border-radius: 10px;
+    background-color: grey;
+    width: 90%;
+  }
+  
+}
+
 
 
 .go{
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
+}
+.dd{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+@media (max-width: 800px) {
+  .go {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 .nn1{
   display: flex;
@@ -158,9 +183,7 @@ li a:hover{
   width: 100%;
 }
 }
-@media(max-width: 800px){
-  .go{display: block;}
-}
+
 .zz img{
   width: 300px;
   border-radius: 20px;
@@ -168,8 +191,8 @@ li a:hover{
 }
 @media(max-width: 800px){
   .zz img{
-    width:270px;
-    height: 320px;
+    width:190px;
+    height: 220px;
 
   }
   .zz{
@@ -177,62 +200,11 @@ li a:hover{
     justify-content: center;
     
   }
-  .hy,.bt{
-    width: 100%;
-  }
 }
 .zz img:hover{
   transform: scale(1.04);
 }
 
-
-.text {
-  font-family: monospace;
-  font-size: 4.8em;
-  letter-spacing: 6px;
-  border-right: 5px solid;
-  width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  animation:
-    typing 6s,
-    cursor .4s step-end infinite alternate;
-}
-@media(max-width: 800px){
-  .text{
-    font-size: 2em;
-  }
-}
-@keyframes cursor {
-  50% {
-    border-color: transparent;
-  }
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-}
-
-
-
-@media(max-width: 800px){
-  .head{
-    text-align: center;
-    margin-left: 0;
-    margin-right: 0;
-    height: 800px;
-  }
-  .head1{
-    text-align: center;
-  }
-  .go{
-    margin-top: 20px;
-    width: 100%;
-    height: 800px;
-  }
-}
 .talk{
   margin: 20px;
   display: flex;
@@ -330,28 +302,32 @@ li a:hover{
 .small h2{
   font-size: 24px;
 }
-.packages{
+
+
+.basic {
+  margin-top: 40px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-
-.p2,.p1{
-  padding-top: 40px;
-  padding: 0px 10px;
   border-radius: 10px;
-  border: 2px grey solid;
-  width:500px;
   height: 300px;
-  margin-left: 30px;
-
-
 }
-.p1 button{
-  
-  width: 300px;
-  border-radius: 10px;
+#dv {
+  margin-top: 8px;
+}
+.basic h3{
+  border-radius: 20px;
+  border: 1.5px white solid;
+  background-color: orangered;
+  padding: 5px;
+}
+.basic h3,p{
+  font-size: 24px;
+}
+.basic button{
+  padding: 10px;
+  border-radius: 20px;
   font-size: 17px;
   background-color: rgb(29, 185, 84);
   border: none;
@@ -359,54 +335,8 @@ li a:hover{
   font-weight: 400;
   cursor: pointer;
 }
-.p1 button:hover{
+.basic button:hover{
   transform: scale(1.1);
-}
-.p2 button:hover{
-  transform: scale(1.1);
-}
-.p2 button{
-
-  width: 300px;
-  border-radius: 5px;
-  font-size: 17px;
-  background-color: rgb(29, 185, 84);
-  border: none;
-  transition: transform 0.3s ease-out;
-  font-weight: 400;
-  cursor: pointer;
-}
-.p1, .p2, p{
-  font-size: 1.2em;
-}
-.p1, .p2, p{
-  font-size: 1.2em;
-}
-.p1 h3{
-  
-  background-color: orangered;
-}
-
-.p2 h3{
-  
-  background-color: orangered;
-}
-@media(max-width: 800px) {
-  .packages{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  height: 800px;
-
-
-  }
-  .p1,.p2{
-    display: block;
-    width:340px;
-    height: 330px;
-    margin-left: 0px;
-    padding-top: 50px;
-  }
 }
 .packages a{
   color: white;
