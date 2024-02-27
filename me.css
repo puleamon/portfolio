@@ -1,521 +1,140 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-body{
-  text-align: center;
-  color: white;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="me.css" />
+  <title>Document</title>
+</head>
+<body>
+
   
-  background-color: black;
-  margin: 0px;
-  padding: 0;
-  background-position: center;
-  background-size: cover;
-  font-family: calibri;
 
-}
-.head1{
-
- 
-  text-align: center;
-}
-.head{
-  text-align: center;
-  padding-top: 30px;
-  height: 900px;
-  background-image: url("back.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-@media screen and (max-width: 800px){
-  .head1{
-    width: 100;
-    text-align: center;
-  }
-  .head{
-    width: 100%;
-    text-align: center;
-    margin-left: 0;
-    margin-right: 0;
-    height: 850px;
+<section class="head1">
+  <section class="head">
     
-  }
+<nav class="navbar">
+  <div class="navdiv">
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+      <li><a href="index.html">home</a></li>
+      <li><a href="contact.html">contact</a></li>
+      <li><a href="services.html">services</a></li>
+      <li><a href="products.html">products</a></li>
+    </ul>
+    <ul>
+      <li class="logo" class="hideOnMobile"><a href="index.html">puleamon</a></li>
+      <li class="hideOnMobile"><a href="contact.html">home</a></li>
+      <li class="hideOnMobile"><a href="services.html">contact</a></li>
+      <li class="hideOnMobile"><a href="services.html">services</a></li>
+      <li class="hideOnMobile"><a href="products.html">products</a></li>
+      <li class="menu-button"  onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>
+  </div>
+</nav>
+    <section class="go">
+      <div class="nn1">
+        <div class="zz">
+          <a href="google.com"><img src="rr.jpg" alt="profile photo"></a>
+        </div>
+      </div>
+      <div class="nn2">
+        <div class="dd">c
+          <div class="container">
+            <p>
+              Do You Want a Website?
+            </p>
+          </div>
+          
+          
+          <div class="hy">
+
+            <p>My Name is Pule Amon, am software Developer and Programmer and i love building websites
+            </p>
+          </div>
+          
+          <div class="bt">
+            <p>I create amazing websites that adds value to your business, take on the next step to modern way of communicating with your customers</p>
+          </div>
+          
+        </div>
+      </div>
+      
+      
+    </section>
+  </section>
   
-}
-a{
-  text-decoration: none;
-
-}
-.navbar{
-  margin-bottom: 30px;
-  border-radius: 10px;
-  font-family: calibri;
-  padding-left: 15px;
-}
-
-.amon {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-}
-
-.navdiv{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   
-
-}
-.list{
-  border-radius: 20px;
-}
-li{
-  list-style: none;
-  display: inline-block;
-}
-li a{
-  font-weight: 800;
-  color: white;
-  font-size: 18px;
-  font-weight: bald;
-  margin-right: 25px;
-  transition: text-decoration 0.3s ease-out;
+</section>
   
-}
-li a:hover{
-  text-decoration: underline;
-}
-.logo{
-  margin-left: 20px;
-}
-.logo a{
-  font-size: 28px;
-  font-weight: 600;
-  color: white;
-  
+<div class="talk">
+  <h2>Talk with with me today</h2>
+</div>
+<div class="get">
+  <button><a href="tel:0776410841"><h4>Call Me Today 📞</h4></a></button>
+</div>
+
+<section class="deed">
+  <section class="details">
+    <div class="why">
+      <h1>why choose me</h1>
+    </div>
+    <div class="now">
+      <p>✔ I  bring a wealth of expertise and experience</p>
+      <p>✔ I am committed to delivering a unique and tailored web experience for clients</p>
+      <p>✔ User experince is a top priority in modern web development</p>
+      <p>✔ Whether it's designing a visually appealing website or implemwnting innovative features, my creativity shines through</p>
+      <p>✔ Precision is crucial in web development, and my attention to details ensures that every element on a website is meticulously crafted, content </p>
+     
+    </div>
+  </section>
+</section>
+  <section class="small">
+    <h2>Website Design Packages</h2>
+  </section>
+<section class="packages">
+    <div class="basic">
+    <div id="dv"><h2>Basic Website</h2></div>
+    <div id="dv"><h3>UGX 350,000 /=</h3></div>
+    <div id="dv"><p>5 page website</p></div>
+    <div id="dv"><p>standard layout</p></div>
+    <div id="dv"><p>resposive design</p></div>
+    <div id="dv"> <p>2 month free maintenace</p></div>
+    <div id="dv"> <p>domain name</p></div>
+    <div id="dv"><button><a href="tel:0776410841"><h4>Call Me Today</h4></a></button></div>
+  </div>
+    <div class="basic">
+      <div id="dv"><h2>Dynamic Website</h2></div>
+      <div id="dv"><h3>UGX 900,000 /=</h3></div>
+      <div id="dv"><p>10+ pages website</p></div>
+      <div id="dv"><p>resposive design</p></div>
+      <div id="dv"><p>content management system</p></div>
+      <div id="dv"><p>2 design revisions</p></div>
+      <div id="dv"><p>4 month maintenace</p></div>
+      <div id="dv"><button><a href="tel:0776410841"><h4>Call Me Today</h4></a></button></div>
+  </div>
+</section>
 
 
-}
+<div class="bottom">
+  <p>Location: Kampala Uganda Kyanja</p>
+  <p>Contact: +256 776410841 / +256 757231535</p>
+  <p>Email: puleamon73@gmail.com</p>
+  <p>Available 24/7</p>
+ </div>
+</div>
 
-@media(max-width: 800px){
-  li a{
-    font-size: 13px;
+<script>
+  function showSidebar() {
+    const sidebar = document.querySelector(".sidebar")
+    sidebar.style.display = 'flex'
   }
-  
-  .logo a{
-    
-    color: white;
-    font-size: 19px;
+
+  function hideSidebar() {
+    const sidebar = document.querySelector(".sidebar")
+    sidebar.style.display = 'none'
   }
-  .logo{
-    margin-left: 0px;
-  }
-}
-.container{
-  margin-bottom: 20px;
-}
-.container p{
-  font-size: 24px;
+</script>
 
-}
-
-.hy{
-  margin-bottom: 20px;
-  border-radius: 3px;
-  font-size: 1.1em;
-  margin-top: 1px;
-}
-.hy p{
-  font-size: 24px;
-  color: white;
-}
-.bt p{
-  font-size: 24px;
-}
-@media(max-width: 800px){
-  .bt, .hy{
-    border-radius: 10px;
-    background-color: grey;
-    width: 90%;
-  }
-  
-}
-
-
-
-.go{
-  display: flex;
-  justify-content: space-around;
-}
-.dd{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
-}
-@media (max-width: 800px) {
-  .go {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-}
-.nn1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
-}
-.nn2{
-  width: 800px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
-}
-@media(max-width: 800px){
-.nn2{
-  height: 300px;
-  width: 100%;
-}
-}
-
-.zz img{
-  width: 300px;
-  border-radius: 20px;
-  transition: transform 0.3s ease-out;
-}
-@media(max-width: 800px){
-  .zz img{
-    width:190px;
-    height: 220px;
-
-  }
-  .zz{
-    display: flex;
-    justify-content: center;
-    
-  }
-}
-.zz img:hover{
-  transform: scale(1.04);
-}
-
-.talk{
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.talk h2{
-  font-size: 20px;
-}
-.get{
-  margin: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.get button{
-  transition: transform 0.3s ease-out;
-  border: none;
-  width: 230px;
-  height: 50px;
-  border-radius: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-.get button:hover{
-  transform: scale(1.1);
-}
-.get button h4{
-  font-size: 1.3em;
-}
-.get button a{
-  text-decoration: none;
-  color: black;
-}
-.why{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-  border-bottom: 2px grey solid;
-}
-.now{
-  text-align: left;
-  padding-left: 10px;
-}
-.now p{
-  font-size: 18px;
-}
-.now p:hover{
-  
-  background-color: black;
-}
-
-
-
-.butts{
-  text-align: center;
-  
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.deed{
-
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.details{
-  display: block;
-  background: linear-gradient(500deg,black,rgb(61, 57, 57),grey);
-  width: 100%;
-  border-radius: 10px;
-  margin-top: 20px;
-  height: 400px;
-}
-@media(max-width: 800px){
-  .details{
-    width: 450px;
-    height: 400px;
-  }
-}
-.small{
-  margin: 20px;
-  text-align: center;
-}
-
-.small h2{
-  font-size: 24px;
-}
-
-
-.basic {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  height: 300px;
-}
-#dv {
-  margin-top: 8px;
-}
-.basic h3{
-  border-radius: 20px;
-  border: 1.5px white solid;
-  background-color: orangered;
-  padding: 5px;
-}
-.basic h3,p{
-  font-size: 24px;
-}
-.basic button{
-  padding: 10px;
-  border-radius: 20px;
-  font-size: 17px;
-  background-color: rgb(29, 185, 84);
-  border: none;
-  transition: transform 0.3s ease-out;
-  font-weight: 400;
-  cursor: pointer;
-}
-.basic button:hover{
-  transform: scale(1.1);
-}
-.packages a{
-  color: white;
-}
-
-.bottom{
-  border-top:1px grey solid;
-  margin-top: 40px;
-  padding-top: 30px;
-  height: 200px;
-}
-.middle h2{
-  text-align: center;
-  font-size: 2em;
-
-}
-
-.call{
-  margin-top: 20px;
-  height: 500px;
-  background: scroll;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  
-}
-.call h1{
-  color: black;
-  font-weight: 800;
-}
-.call .ct{
-  font-size: 1.4em;
-  margin-left: 25px;
-  background-color: black;
-  color: white;
-  font-weight: 600;
-  cursor: pointer;
-  border-radius: 20px;
-  padding: 8px 20px;
-  transition: transform 0.3s ease-out;
-}
-.cll{
-  border-radius: 20px;
-  border: 2px white solid;
-
-  padding: 0px 20px;
-}
-.cll h1{
-  font-size: 1.8em;
-  font-weight: 1000;
-  color: purple;
-}
-.cll:hover{
-  background-color: white;
-}
-.ct a{
-  text-decoration: none;
-  color: white;
-}
-
-@media(max-width: 800px){
-  .call{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
-
-  }
-}
-#myVideo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; 
-  z-index: -1; 
-}
-
-#myVideo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-
-@media (max-width: 768px) {
-  #myVideo {
-    width: 100%;
-    
-  }
-}
-.services{
-  text-align: center;
-}
-@media(max-width: 800px){
-  .sso{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-.sh1 h1{
-  font-size: 1.6em;
-}
-.neck{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
-  margin-top: 50px;
-}
-
-.sh1{
-  text-align: center;
-  border-radius: 10px;
-  padding: 0px 10px ;
-  width: 400px;
-  border: 2px white solid;
-}
-.sso{
-  display: flex;
-  justify-content: space-around;
-
-}
-.sso1 h4 {
-  font-size: 1.3em;
-  color: orange;
-}
-.sso12 h4 {
-  font-size: 1.3em;
-  color: orange;
-}
-.sso12 p {
-  font-size: 1.3em;
-  color: grey;
-}
-.sso1 p {
-  font-size: 1.3em;
-  color: grey;
-}
-
-.sso1{
-  
-  padding-bottom: 5px;
-  padding-left: 20px;
-  border-right: 2px white solid;
-  
-  width: 450px;
-  height: 700px;
-  text-align: left;
-
-}
-.sso12{
-  padding-bottom: 5px;
-  padding-left: 20px;
-  width: 450px;
-  height: 500px;
-  text-align: left;
-
-}
-@media(max-width: 800px){
-  .sso1{
-    height: 650px;
-    border-right: none;
-    border-bottom: 2px white solid;
-
-  }
-}
-.list1{
-  background-image: url("sky.jpg");
-}
-.merch{
-  height: 900px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+</body>
+</html>
