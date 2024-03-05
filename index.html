@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="me.css" />
   <title>Document</title>
+  <script src="script.js"></script>
 </head>
 <body>
 
@@ -16,14 +17,13 @@
 <nav class="navbar">
   <div class="navdiv">
     <ul class="sidebar">
-      <li onclick=hideSidebar()><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-      <li><a href="index.html">home</a></li>
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
       <li><a href="contact.html">contact</a></li>
       <li><a href="services.html">services</a></li>
       <li><a href="products.html">products</a></li>
     </ul>
     <ul>
-      <li class="logo" class="hideOnMobile"><a href="index.html">puleamon</a></li>
+      <li class="logo" class="hideOnMobile"><a href="#">puleamon</a></li>
       <li class="hideOnMobile"><a href="contact.html">home</a></li>
       <li class="hideOnMobile"><a href="services.html">contact</a></li>
       <li class="hideOnMobile"><a href="services.html">services</a></li>
@@ -35,7 +35,7 @@
     <section class="go">
       <div class="nn1">
         <div class="zz">
-          <a href="google.com"><img src="rr.jpg" alt="profile photo"></a>
+          <img src="rr.jpg" alt="profile photo">
         </div>
       </div>
       <div class="nn2">
@@ -63,8 +63,6 @@
       
     </section>
   </section>
-  
-  
 </section>
   
 <div class="talk">
@@ -95,7 +93,7 @@
 <section class="packages">
     <div class="basic">
     <div id="dv"><h2>Basic Website</h2></div>
-    <div id="dv"><h3>UGX 350,000 /=</h3></div>
+    <div id="dv"><h3>USD 120 $</h3></div>
     <div id="dv"><p>5 page website</p></div>
     <div id="dv"><p>standard layout</p></div>
     <div id="dv"><p>resposive design</p></div>
@@ -105,7 +103,7 @@
   </div>
     <div class="basic">
       <div id="dv"><h2>Dynamic Website</h2></div>
-      <div id="dv"><h3>UGX 900,000 /=</h3></div>
+      <div id="dv"><h3>USD $350</h3></div>
       <div id="dv"><p>10+ pages website</p></div>
       <div id="dv"><p>resposive design</p></div>
       <div id="dv"><p>content management system</p></div>
@@ -114,8 +112,12 @@
       <div id="dv"><button><a href="tel:0776410841"><h4>Call Me Today</h4></a></button></div>
   </div>
 </section>
-
-
+<section class="illus">
+  <div class="illus1"><h1>Business</h1></div>
+  <div class="illus2"><h1>Blog</h1></div>
+  <div class="illus3"><h1>Personal</h1></div>
+  <div class="illus4"><h1>E-commerce</h1></div>
+</section>
 <div class="bottom">
   <p>Location: Kampala Uganda Kyanja</p>
   <p>Contact: +256 776410841 / +256 757231535</p>
@@ -123,18 +125,5 @@
   <p>Available 24/7</p>
  </div>
 </div>
-
-<script>
-  function showSidebar() {
-    const sidebar = document.querySelector(".sidebar")
-    sidebar.style.display = 'flex'
-  }
-
-  function hideSidebar() {
-    const sidebar = document.querySelector(".sidebar")
-    sidebar.style.display = 'none'
-  }
-</script>
-
 </body>
 </html>
