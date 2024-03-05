@@ -70,6 +70,7 @@ nav a:hover{
 nav li:first-child{
   margin-right: auto;
 }
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -101,6 +102,7 @@ nav li:first-child{
     display: block;
   }
 }
+details
 a{
   text-decoration: none;
 
@@ -111,13 +113,6 @@ a{
   font-family: calibri;
   padding-left: 15px;
 }
-
-.amon {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-}
-
 .navdiv{
   display: flex;
   justify-content: space-between;
@@ -177,6 +172,7 @@ li a:hover{
   font-size: 24px;
 
 }
+zz
 
 .hy{
   margin-bottom: 20px;
@@ -197,9 +193,9 @@ li a:hover{
     background-color: grey;
     width: 90%;
   }
-  
-}
 
+
+}
 
 
 .go{
@@ -244,16 +240,18 @@ li a:hover{
 
 .zz img{
   width: 300px;
-  border-radius: 20px;
   transition: transform 0.3s ease-out;
 }
 @media(max-width: 800px){
   .zz img{
     width:190px;
     height: 220px;
+  
+
 
   }
   .zz{
+    padding: 20px;
     display: flex;
     justify-content: center;
     
@@ -306,12 +304,90 @@ li a:hover{
   height: 50px;
   border-bottom: 2px grey solid;
 }
+.illus{
+  padding: 0px 10px;
+  margin-top: 30px;
+  display: flex;
+  min-height: 130px;
+  /* border: 2px white solid; */
+  overflow-x: auto;
+
+}
+
+.illus::-webkit-scrollbar{
+  width: 0;
+}
+.illus .illus1,.illus2,.illus3,.illus4{
+
+  margin-left: 10px;
+  /* border: 1px white solid; */
+  min-height: 120px;
+  min-width: 120px;
+
+}
+@media(min-width: 800px) {
+  .illus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .illus .illus1,.illus2,.illus3,.illus4{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+  }
+}
+.illus1{
+  background: url("business.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.illus2{
+  background: url("blog.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.illus3{
+  background: url("personal.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.illus4{
+  background: url("ecommerce.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.illus h1{
+  font-size: 20px;
+  background-color: black;
+}
 .now{
   text-align: left;
   padding-left: 10px;
 }
 .now p{
   font-size: 18px;
+}
+@media(min-width: 800px){
+  .now p{
+    font-size: 24px;
+  }
+  .now{
+    padding: 10px;
+  }
 }
 .now p:hover{
   
@@ -329,26 +405,15 @@ li a:hover{
   align-items: center;
 }
 
-
-.deed{
-
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .details{
   display: block;
   background: linear-gradient(500deg,black,rgb(61, 57, 57),grey);
-  width: 100%;
   border-radius: 10px;
   margin-top: 20px;
   height: 400px;
 }
 @media(max-width: 800px){
   .details{
-    width: 450px;
     height: 400px;
   }
 }
@@ -363,25 +428,37 @@ li a:hover{
 
 
 .basic {
+  background: linear-gradient(480deg,blue,purple,pink);
   margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  height: 300px;
+  height: 400px;
+  margin: 20px 20px;
+}
+@media(min-width: 800px){
+  .basic{
+
+    padding: 40px;
+  }
 }
 #dv {
   margin-top: 8px;
 }
 .basic h3{
+  text-align: center;
+  height: 30px;
+  width: 200px;
   border-radius: 20px;
+  color: black;
   border: 1.5px white solid;
-  background-color: orangered;
+  background-color: white;
   padding: 5px;
 }
 .basic h3,p{
-  font-size: 24px;
+  font-size: 23px;
 }
 .basic button{
   padding: 10px;
@@ -393,12 +470,28 @@ li a:hover{
   font-weight: 400;
   cursor: pointer;
 }
+.basic button a{
+  text-decoration: none;
+}
 .basic button:hover{
   transform: scale(1.1);
 }
+
+
 .packages a{
   color: white;
 }
+
+@media(min-width: 800px){
+  .packages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+  }
+}
+
 
 .bottom{
   border-top:1px grey solid;
@@ -406,12 +499,6 @@ li a:hover{
   padding-top: 30px;
   height: 200px;
 }
-.middle h2{
-  text-align: center;
-  font-size: 2em;
-
-}
-
 .call{
   margin-top: 20px;
   height: 500px;
@@ -426,7 +513,7 @@ li a:hover{
   color: black;
   font-weight: 800;
 }
-.call .ct{
+.call {
   font-size: 1.4em;
   margin-left: 25px;
   background-color: black;
@@ -436,24 +523,6 @@ li a:hover{
   border-radius: 20px;
   padding: 8px 20px;
   transition: transform 0.3s ease-out;
-}
-.cll{
-  border-radius: 20px;
-  border: 2px white solid;
-
-  padding: 0px 20px;
-}
-.cll h1{
-  font-size: 1.8em;
-  font-weight: 1000;
-  color: purple;
-}
-.cll:hover{
-  background-color: white;
-}
-.ct a{
-  text-decoration: none;
-  color: white;
 }
 
 @media(max-width: 800px){
@@ -576,4 +645,88 @@ li a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.condeeds{
+  margin: 5px;
+  height: 900px;
+  border-radius: 10px;
+  background: url("vivid1.jpg");
+  background-position: center;
+
+
+
+}
+.condeeds .numbers{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.numbers h1{
+  font-size: 2em;
+  color: black;
+  font-weight: 800;
+
+
+}
+.numbers2{
+  margin-top: 50px;
+  background: transparent;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px
+}
+@media(min-width: 800px){
+  .numbers2{
+    margin-top: 50px;
+    background: transparent;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px
+  }
+}
+.numbers2 button{
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+
+}
+.numbers2 a{
+  color: black;
+  font-size: 18px;
+  font-weight: 800;
+
+}
+.numbers2 p{
+  border: 2px solid white;
+  padding: 0px 5px;
+  border-radius: 10px;
+}
+.lower .lower1{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  background: url("phone.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.lower .lower1 p{
+  padding: 10x;
+ font-size: 18px;
+ font-weight: 600;
+ background-color: black;
 }
