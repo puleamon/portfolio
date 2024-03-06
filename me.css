@@ -178,7 +178,7 @@ li a:hover{
   margin-bottom: 20px;
   border-radius: 3px;
   font-size: 1.1em;
-  margin-top: 1px;
+  margin-top: 10px;
 }
 .hy p{
   font-size: 24px;
@@ -240,7 +240,10 @@ li a:hover{
 
 .zz img{
   width: 300px;
-  transition: transform 0.3s ease-out;
+  transition: transform 3s ease-out;
+}
+.zz img:hover{
+  transform: scale(1.3);
 }
 @media(max-width: 800px){
   .zz img{
@@ -257,9 +260,7 @@ li a:hover{
     
   }
 }
-.zz img:hover{
-  transform: scale(1.04);
-}
+
 
 .talk{
   margin: 20px;
@@ -309,7 +310,6 @@ li a:hover{
   margin-top: 30px;
   display: flex;
   min-height: 130px;
-  /* border: 2px white solid; */
   overflow-x: auto;
 
 }
@@ -317,10 +317,9 @@ li a:hover{
 .illus::-webkit-scrollbar{
   width: 0;
 }
-.illus .illus1,.illus2,.illus3,.illus4{
+.illus .illus1,.illus2,.illus3,.illus4,.illus5,.illus6,.illus7{
 
   margin-left: 10px;
-  /* border: 1px white solid; */
   min-height: 120px;
   min-width: 120px;
 
@@ -328,17 +327,19 @@ li a:hover{
 @media(min-width: 800px) {
   .illus{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   
   }
-  .illus .illus1,.illus2,.illus3,.illus4{
+  .illus .illus1,.illus2,.illus3,.illus4,.illus5,.illus6,.illus7{
     margin-top: 10px;
     width: 300px;
     height: 300px;
   }
 }
 .illus1{
+  transition: transform 0.3s ease-out;
   background: url("business.jpg");
   background-position: center;
   background-size: cover;
@@ -346,7 +347,12 @@ li a:hover{
   flex-direction: column;
   justify-content: flex-end;
 }
+.illus1:hover{
+  transform: scale(0.8);
+}
+
 .illus2{
+  transition: transform 0.3s ease-out;
   background: url("blog.jpg");
   background-position: center;
   background-size: cover;
@@ -354,7 +360,12 @@ li a:hover{
   flex-direction: column;
   justify-content: flex-end;
 }
+.illus2:hover{
+  transform: scale(0.8);
+}
+
 .illus3{
+  transition: transform 0.3s ease-out;
   background: url("personal.jpg");
   background-position: center;
   background-size: cover;
@@ -362,7 +373,12 @@ li a:hover{
   flex-direction: column;
   justify-content: flex-end;
 }
+.illus3:hover{
+  transform: scale(0.8);
+}
+
 .illus4{
+  transition: transform 0.3s ease-out;
   background: url("ecommerce.jpg");
   background-position: center;
   background-size: cover;
@@ -370,6 +386,49 @@ li a:hover{
   flex-direction: column;
   justify-content: flex-end;
 }
+.illus4:hover{
+  transform: scale(0.8);
+}
+
+.illus5{
+  transition: transform 0.3s ease-out;
+  background: url("media.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.illus5:hover{
+  transform: scale(0.8);
+}
+
+.illus6{
+  transition: transform 0.3s ease-out;
+  background: url("community.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.illus6:hover{
+  transform: scale(0.8);
+}
+
+.illus7{
+  transition: transform 0.3s ease-out;
+  background: url("forum.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.illus7:hover{
+  transform: scale(0.8);
+}
+
 .illus h1{
   font-size: 20px;
   background-color: black;
@@ -651,8 +710,7 @@ li a:hover{
   margin: 5px;
   height: 900px;
   border-radius: 10px;
-  background: url("vivid1.jpg");
-  background-position: center;
+  background: linear-gradient(490deg,pink,rgb(0, 130, 124),rgb(255, 255, 255));
 
 
 
@@ -702,6 +760,7 @@ li a:hover{
 
 }
 .numbers2 a{
+  text-decoration: none;
   color: black;
   font-size: 18px;
   font-weight: 800;
