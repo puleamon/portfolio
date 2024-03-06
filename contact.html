@@ -5,50 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="me.css" />
   <title>Document</title>
+  <script src="script.js"></script>
 </head>
-<body>
-  <section class="pule">
-    <section class="amon">
-      <video id="myVideo" autoplay loop muted>
-        <source src="vid.mp4" type="video/mp4">
-      </video> 
-      <nav class="navbar">
-        <div class="navdiv">
-          <div class="logo">
-            <a href="index.html">puleamon</a>
-          </div>
-          <div class="list">
-            <ul>
-              <li><a href="index.html">home</a></li>
-              <li><a href="contact.html">contact</a></li>
-              <li><a href="services.html">services</a></li>
-              <li><a href="products.html">products</a></li>
-            </ul>
-          </div>
-        
-        </div>
-      </nav>
-        </section>
-      
-        <section class="middle">
-          <h2>Lets talk Today</h2>
-          <div class="call">
-            
-            
-            <div class="cll"><h1>Call At AnyTime 📞</h1></div>
-            
-            <div class="ct"><a href="tel:+256776410841">+256 776410841</a></div>
-            <div class="ct"><a href="tel:+256757231535">+256 757231535</a></div>
-          </div>
-      
-      
-        </section>
-      
-      
+<body> 
+  <section class="conhead">
+    <nav class="navbar">
+      <div class="navdiv">
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+          <li><a href="index.html">home</a></li>
+          <li><a href="contact.html">contact</a></li>
+          <li><a href="services.html">services</a></li>
+          <li><a href="products.html">products</a></li>
+        </ul>
+        <ul>
+          <li class="logo" class="hideOnMobile"><a href="#">puleamon</a></li>
+          <li class="hideOnMobile"><a href="index.html">home</a></li>
+          <li class="hideOnMobile"><a href="services.html">contact</a></li>
+          <li class="hideOnMobile"><a href="services.html">services</a></li>
+          <li class="hideOnMobile"><a href="products.html">products</a></li>
+          <li class="menu-button"  onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+      </div>
+    </nav>
+    
   </section>
-
-
-
+  <section class="condeeds">
+      <section class="numbers">
+       <h1>Let's talk today 📞</h1>
+      </section>
+      <section class="numbers2">
+        <button class="numbut"><a href="tel:0776410841"><h4>+256 776410841</h4></a></button>
+        <button class="numbut"><a href="tel:0757231535"><h4>+256 757231535</h4></a></button>
+        <p>the above numbers are always available 24/7</p>
+        
+      </section>
+     <section class="lower">
+      <div class="lower1">
+        <p>I love connecting with all my clients and sharing ideas with them as we brainstorm ideas together</p>
+      </div>
+     
+     </section>
+  </section>
   <div class="bottom">
     <p>Location: Kampala Uganda Kyanja</p>
     <p>Contact: +256 776410841 / +256 757231535</p>
@@ -57,8 +55,7 @@
    </div>
   </div>
 
-
-
+  
 
 
 
